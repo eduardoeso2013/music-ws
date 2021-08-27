@@ -28,9 +28,9 @@ public class MusicaDto {
     @Size(min = 4, message = "O ano tem que ter pelo menos 4 caracteres")
     private String anoLancamento;
 
-    @NotEmpty(message = "O ano de lancamento deve ser preenchido")
-    @NotBlank(message = "O ano de lancamento não pode ficar em branco")
-    @Size(min = 4, message = "O ano tem que ter pelo menos 4 caracteres")
+    @NotEmpty(message = "O compositor deve ser preenchido")
+    @NotBlank(message = "O compositor não pode ficar em branco")
+    @Size(min = 4, message = "O nome do compositor tem que ter pelo menos 4 caracteres")
     private String compositor;
 
     public String getId() {
